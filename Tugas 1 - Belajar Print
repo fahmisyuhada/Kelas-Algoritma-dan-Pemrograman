@@ -1,0 +1,19 @@
+print("Biodata saya")
+       
+Biodata saya
+print("nama : Multazam")
+       
+nama : Multazam
+print("Alamat : Jana pria")
+       
+Alamat : Jana pria
+print(")
+      
+SyntaxError: incomplete input
+print("status : Lajang")
+      
+status : Lajang
+print("moto hidup : tatas tuhu trasna")
+      
+moto hidup : tatas tuhu trasna
+print()
