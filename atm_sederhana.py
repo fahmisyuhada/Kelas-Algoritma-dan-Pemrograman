@@ -1,15 +1,10 @@
+import menu as mn 
+
 
 saldo = 0
 
-def menu():
-    print("="*40)
-    print("=== Selamat Datang di ATM Sederhana ====")
-    print("="*40)
 
-    print("1. Cek Saldo")
-    print("2. Tarik Uang")
-    print("3. Setor Uang")
-    print("4. Keluar")
+
 
 def proses_tarik_uang():
     global saldo
@@ -29,7 +24,7 @@ while(running):
     pin = "123456"
     if(pin == "123456"):
         saldo = 1000000
-        menu()
+        mn.menu()
         pilihan = int(input("Masukkan Menu : "))
         if pilihan == 4:
             running = False
